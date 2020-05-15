@@ -24,7 +24,7 @@ import me.goldze.mvvmhabit.utils.ToastUtils;
 import me.tatarka.bindingcollectionadapter2.ItemBinding;
 
 /**
- * Created by goldze on 2017/7/17.
+ * Created by zhaozq on 2020/5/15.
  */
 
 public class NetWorkViewModel extends BaseViewModel<DemoRepository> {

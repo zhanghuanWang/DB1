@@ -12,7 +12,7 @@ import com.fhzn.db1.entity.DemoEntity;
 import me.goldze.mvvmhabit.base.BaseFragment;
 
 /**
- * Created by goldze on 2017/7/17.
+ * Created by zhaozq on 2020/5/15.
  * 详情界面
  */
 

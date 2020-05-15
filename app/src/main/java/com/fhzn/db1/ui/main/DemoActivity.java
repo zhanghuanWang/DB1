@@ -20,7 +20,7 @@ import me.goldze.mvvmhabit.utils.ToastUtils;
 import okhttp3.ResponseBody;
 
 /**
- * Created by goldze on 2017/7/17.
+ * Created by zhaozq on 2020/5/15.
  */
 
 public class DemoActivity extends BaseActivity<ActivityDemoBinding, DemoViewModel> {

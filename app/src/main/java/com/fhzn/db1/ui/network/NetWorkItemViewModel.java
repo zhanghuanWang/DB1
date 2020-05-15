@@ -16,7 +16,7 @@ import me.goldze.mvvmhabit.binding.command.BindingCommand;
 import me.goldze.mvvmhabit.utils.ToastUtils;
 
 /**
- * Created by goldze on 2017/7/17.
+ * Created by zhaozq on 2020/5/15.
  */
 
 public class NetWorkItemViewModel extends ItemViewModel<NetWorkViewModel> {
