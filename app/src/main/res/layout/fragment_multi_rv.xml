@@ -3,7 +3,7 @@
 
     <data>
 
-        <import type="com.goldze.mvvmhabit.ui.rv_multi.MultiRecycleViewModel" />
+        <import type="com.fhzn.db1.ui.rv_multi.MultiRecycleViewModel" />
 
         <import type="me.tatarka.bindingcollectionadapter2.BindingRecyclerViewAdapter" />
 

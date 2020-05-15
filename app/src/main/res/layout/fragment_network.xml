@@ -3,7 +3,7 @@
 
     <data>
 
-        <import type="com.goldze.mvvmhabit.ui.network.NetWorkViewModel" />
+        <import type="com.fhzn.db1.ui.network.NetWorkViewModel" />
 
         <import type="me.tatarka.bindingcollectionadapter2.BindingRecyclerViewAdapter" />
 
