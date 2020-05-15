@@ -12,7 +12,7 @@ import com.fhzn.db1.ui.login.LoginViewModel;
 import com.fhzn.db1.ui.network.NetWorkViewModel;
 
 /**
- * Created by goldze on 2019/3/26.
+ * Created by zhaozq on 2019/3/26.
  */
 public class AppViewModelFactory extends ViewModelProvider.NewInstanceFactory {
     @SuppressLint("StaticFieldLeak")

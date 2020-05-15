@@ -6,7 +6,7 @@ import io.reactivex.Observable;
 import me.goldze.mvvmhabit.http.BaseResponse;
 
 /**
- * Created by goldze on 2019/3/26.
+ * Created by zhaozq on 2019/3/26.
  */
 public interface HttpDataSource {
     //模拟登录

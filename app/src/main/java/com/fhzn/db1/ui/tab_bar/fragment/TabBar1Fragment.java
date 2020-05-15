@@ -11,7 +11,7 @@ import com.fhzn.db1.R;
 import me.goldze.mvvmhabit.base.BaseFragment;
 
 /**
- * Created by goldze on 2018/7/18.
+ * Created by zhaozq on 2018/7/18.
  */
 
 public class TabBar1Fragment extends BaseFragment {

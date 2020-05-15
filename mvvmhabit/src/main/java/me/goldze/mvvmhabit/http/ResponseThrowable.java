@@ -1,7 +1,7 @@
 package me.goldze.mvvmhabit.http;
 
 /**
- * Created by goldze on 2017/5/11.
+ * Created by zhaozq on 2017/5/11.
  */
 
 public class ResponseThrowable extends Exception {

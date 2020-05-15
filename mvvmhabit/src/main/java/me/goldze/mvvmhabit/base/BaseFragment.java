@@ -25,7 +25,7 @@ import me.goldze.mvvmhabit.bus.Messenger;
 import me.goldze.mvvmhabit.utils.MaterialDialogUtils;
 
 /**
- * Created by goldze on 2017/6/15.
+ * Created by zhaozq on 2017/6/15.
  */
 public abstract class BaseFragment<V extends ViewDataBinding, VM extends BaseViewModel> extends RxFragment implements IBaseView {
     protected V binding;

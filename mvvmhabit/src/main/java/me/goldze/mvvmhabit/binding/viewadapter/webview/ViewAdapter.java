@@ -5,7 +5,7 @@ import android.text.TextUtils;
 import android.webkit.WebView;
 
 /**
- * Created by goldze on 2017/6/18.
+ * Created by zhaozq on 2017/6/18.
  */
 public class ViewAdapter {
     @BindingAdapter({"render"})

@@ -20,7 +20,7 @@ import io.reactivex.functions.Consumer;
 import me.goldze.mvvmhabit.bus.event.SingleLiveEvent;
 
 /**
- * Created by goldze on 2017/6/15.
+ * Created by zhaozq on 2017/6/15.
  */
 public class BaseViewModel<M extends BaseModel> extends AndroidViewModel implements IBaseViewModel, Consumer<Disposable> {
     protected M model;

@@ -9,7 +9,7 @@ import okhttp3.CookieJar;
 import okhttp3.HttpUrl;
 
 /**
- * Created by goldze on 2017/5/13.
+ * Created by zhaozq on 2017/5/13.
  */
 public class CookieJarImpl implements CookieJar {
 

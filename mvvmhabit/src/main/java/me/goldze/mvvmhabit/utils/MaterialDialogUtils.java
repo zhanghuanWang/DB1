@@ -21,7 +21,7 @@ import me.goldze.mvvmhabit.R;
 
 
 /**
- * Created by goldze on 2017/5/10.
+ * Created by zhaozq on 2017/5/10.
  */
 
 public class MaterialDialogUtils {

@@ -14,7 +14,7 @@ import retrofit2.HttpException;
 
 
 /**
- * Created by goldze on 2017/5/11.
+ * Created by zhaozq on 2017/5/11.
  */
 public class ExceptionHandle {
 

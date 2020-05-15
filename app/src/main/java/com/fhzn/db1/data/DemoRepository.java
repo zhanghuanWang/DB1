@@ -13,7 +13,7 @@ import me.goldze.mvvmhabit.http.BaseResponse;
 
 /**
  * MVVM的Model层，统一模块的数据仓库，包含网络数据和本地数据（一个应用可以有多个Repositor）
- * Created by goldze on 2019/3/26.
+ * Created by zhaozq on 2019/3/26.
  */
 public class DemoRepository extends BaseModel implements HttpDataSource, LocalDataSource {
     private volatile static DemoRepository INSTANCE = null;

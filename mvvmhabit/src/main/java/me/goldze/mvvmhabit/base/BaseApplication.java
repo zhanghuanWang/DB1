@@ -8,7 +8,7 @@ import android.support.annotation.NonNull;
 import me.goldze.mvvmhabit.utils.Utils;
 
 /**
- * Created by goldze on 2017/6/15.
+ * Created by zhaozq on 2017/6/15.
  */
 
 public class BaseApplication extends Application {

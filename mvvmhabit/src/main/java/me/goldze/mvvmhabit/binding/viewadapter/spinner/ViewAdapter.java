@@ -14,7 +14,7 @@ import java.util.List;
 import me.goldze.mvvmhabit.binding.command.BindingCommand;
 
 /**
- * Created by goldze on 2017/6/18.
+ * Created by zhaozq on 2017/6/18.
  */
 public class ViewAdapter {
     /**

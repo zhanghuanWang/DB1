@@ -9,7 +9,7 @@ import com.fhzn.db1.ui.viewpager.vm.ViewPagerItemViewModel;
 import me.tatarka.bindingcollectionadapter2.BindingViewPagerAdapter;
 
 /**
- * Created by goldze on 2018/6/21.
+ * Created by zhaozq on 2018/6/21.
  */
 
 public class ViewPagerBindingAdapter extends BindingViewPagerAdapter<ViewPagerItemViewModel> {
