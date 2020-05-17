@@ -1,28 +1,3 @@
-## 最新日志
-**v3.0.7：2019年1月25日**
-
-- 优化框架代码，解决已知Bug；
-- 新增ViewPager+Fragment例子；
-- 新增RecycleView多布局例子；
-- 升级第三方依赖库；
-- 修改文档说明。
-#### [更多日志](./UpdateLog.md)
-
-#### [AndroidX分支](https://github.com/goldze/MVVMHabit/tree/androidx)
-***
-
-**注：[1.x-废弃版（最后版本：1.2.6.1）](https://github.com/goldze/MVVMHabit/tree/1.2.6.1)、[2.x-顺手版（最后版本：2.0.10）](https://github.com/goldze/MVVMHabit/tree/2.0.10)已停止维护，建议使用当前[3.x-健壮版（最后版本：3.1.4）](https://github.com/goldze/MVVMHabit)。**
-
-> **原文地址：** [https://github.com/goldze/MVVMHabit](https://github.com/goldze/MVVMHabit)
-
-<a target="_blank" href="http://qm.qq.com/cgi-bin/qm/qr?k=Pvi-65bZN6fRly3VBC8F3fS7A-Pjinna"><img border="0" src="http://pub.idqqimg.com/wpa/images/group.png" alt="MVVMHabit-Family" title="MVVMHabit-Family"></a>
-# MVVMHabit
-##
-目前，android流行的MVC、MVP模式的开发框架很多，然而一款基于MVVM模式开发框架却很少。**MVVMHabit是以谷歌DataBinding+LiveData+ViewModel框架为基础，整合Okhttp+RxJava+Retrofit+Glide等流行模块，加上各种原生控件自定义的BindingAdapter，让事件与数据源完美绑定的一款容易上瘾的实用性MVVM快速开发框架**。从此告别findViewById()，告别setText()，告别setOnClickListener()...
-
-## 框架流程
-![](./img/fc.png) 
-
 ## 框架特点
 - **快速开发**
 
@@ -56,7 +31,6 @@
 
 
 ## 1、准备工作
-> 网上的很多有关MVVM的资料，在此就不再阐述什么是MVVM了，不清楚的朋友可以先去了解一下。[todo-mvvm-live](https://github.com/googlesamples/android-architecture/tree/todo-mvvm-live)
 ### 1.1、启用databinding
 在主工程app的build.gradle的android {}中加入：
 ```gradle
@@ -85,16 +59,6 @@ dependencies {
     implementation 'com.github.goldze:MVVMHabit:3.1.4'
 }
 ```
-或
-
-下载例子程序，在主项目app的build.gradle中依赖例子程序中的**mvvmhabit**：
-```gradle
-dependencies {	
-    ...
-    implementation project(':mvvmhabit')
-}
-```
-
 ### 1.3、配置config.gradle
 如果不是远程依赖，而是下载的例子程序，那么还需要将例子程序中的config.gradle放入你的主项目根目录中，然后在根目录build.gradle的第一行加入：
 
@@ -785,20 +749,9 @@ CAP#1从?的捕获扩展Object
 
 一般是由于gradle plugin版本3.5.1造成的，请换成gradle plugin 3.5.0以下版本
 
-## 混淆
-例子程序中给出了最新的【MVVMHabit混淆规则】，包含MVVMHabit中依赖的所有第三方library，可以将规则直接拷贝到自己app的混淆规则中。在此基础上你只需要关注自己业务代码以及自己引入第三方的混淆，【MVVMHabit混淆规则】请参考app目录下的[proguard-rules.pro](./app/proguard-rules.pro)文件。
-
-## 组件化
-进阶Android组件化方案，请移步：[MVVMHabitComponent](https://github.com/goldze/MVVMHabitComponent)
-
-## About
-**goldze：** 本人喜欢尝试新的技术，以后发现有好用的东西，我将会在企业项目中实战，没有问题了就会把它引入到**MVVMHabit**中，一直维护着这套框架，谢谢各位朋友的支持。如果觉得这套框架不错的话，麻烦点个 **star**，你的支持则是我前进的动力！
-
-**QQ群**：84692105
-
 ## License
 
-    Copyright 2017 goldze(曾宪泽)
+    Copyright 2020 fhzn
  
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.

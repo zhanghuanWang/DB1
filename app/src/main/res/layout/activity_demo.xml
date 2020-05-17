@@ -1,15 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layout>
 
-    <data>
-
-        <import type="com.fhzn.db1.ui.main.DemoViewModel" />
-
-        <variable
-            name="viewModel"
-            type="DemoViewModel" />
-    </data>
-
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:binding="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
@@ -20,25 +11,32 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="网络访问"
+            android:text="普通页面"
+            binding:onClickCommand="@{viewModel.formSbmClick}" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="网络访问-图片展示"
             binding:onClickCommand="@{viewModel.netWorkClick}" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="RecycleView多布局"
+            android:text="list多类型布局"
             binding:onClickCommand="@{viewModel.rvMultiClick}" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="底部Tab按钮"
+            android:text="分页-底部按钮"
             binding:onClickCommand="@{viewModel.startTabBarClick}" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="ViewPager绑定"
+            android:visibility="gone"
             binding:onClickCommand="@{viewModel.viewPagerBindingClick}" />
 
         <Button
@@ -50,12 +48,6 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="表单提交"
-            binding:onClickCommand="@{viewModel.formSbmClick}" />
-
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
             android:text="表单编辑"
             binding:onClickCommand="@{viewModel.formModifyClick}" />
 
@@ -63,18 +55,30 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="权限申请"
+            android:visibility="gone"
             binding:onClickCommand="@{viewModel.permissionsClick}" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="全局异常捕获"
+            android:visibility="gone"
             binding:onClickCommand="@{viewModel.exceptionClick}" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="文件下载"
+            android:visibility="gone"
             binding:onClickCommand="@{viewModel.fileDownLoadClick}" />
     </LinearLayout>
+
+    <data>
+
+        <import type="com.fhzn.db1.ui.main.DemoViewModel" />
+
+        <variable
+            name="viewModel"
+            type="DemoViewModel" />
+    </data>
 </layout>
