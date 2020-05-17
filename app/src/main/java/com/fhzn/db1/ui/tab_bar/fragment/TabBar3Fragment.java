@@ -8,7 +8,7 @@ import android.view.ViewGroup;
 import com.fhzn.db1.BR;
 import com.fhzn.db1.R;
 
-import me.goldze.mvvmhabit.base.BaseFragment;
+import com.fhzn.common.base.BaseFragment;
 
 /**
  * Created by zhaozq on 2018/7/18.

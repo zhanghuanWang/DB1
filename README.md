@@ -397,7 +397,7 @@ layoutManager控制是线性(包含水平和垂直)排列还是网格排列，li
 使用到相关类，则需要导入该类才能使用，和导入Java类相似
 
 > `<import type="me.tatarka.bindingcollectionadapter2.LayoutManagers" />`</br>
-> `<import type="me.goldze.mvvmhabit.binding.viewadapter.recyclerview.LineManagers" />`</br>
+> `<import type="com.fhzn.common.binding.viewadapter.recyclerview.LineManagers" />`</br>
 > `<import type="android.support.v7.widget.LinearLayoutManager" />`
 
 

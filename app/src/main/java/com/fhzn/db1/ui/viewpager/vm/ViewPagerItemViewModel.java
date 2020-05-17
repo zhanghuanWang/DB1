@@ -2,9 +2,9 @@ package com.fhzn.db1.ui.viewpager.vm;
 
 import android.support.annotation.NonNull;
 
-import me.goldze.mvvmhabit.base.ItemViewModel;
-import me.goldze.mvvmhabit.binding.command.BindingAction;
-import me.goldze.mvvmhabit.binding.command.BindingCommand;
+import com.fhzn.common.base.ItemViewModel;
+import com.fhzn.common.binding.command.BindingAction;
+import com.fhzn.common.binding.command.BindingCommand;
 
 /**
  * 所有例子仅做参考,千万不要把它当成一种标准,毕竟主打的不是例子,业务场景繁多,理解如何使用才最重要。

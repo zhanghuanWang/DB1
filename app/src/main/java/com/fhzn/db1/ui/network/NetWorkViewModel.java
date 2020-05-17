@@ -13,14 +13,14 @@ import com.fhzn.db1.entity.DemoEntity;
 import io.reactivex.disposables.Disposable;
 import io.reactivex.functions.Action;
 import io.reactivex.functions.Consumer;
-import me.goldze.mvvmhabit.base.BaseViewModel;
-import me.goldze.mvvmhabit.binding.command.BindingAction;
-import me.goldze.mvvmhabit.binding.command.BindingCommand;
-import me.goldze.mvvmhabit.bus.event.SingleLiveEvent;
-import me.goldze.mvvmhabit.http.BaseResponse;
-import me.goldze.mvvmhabit.http.ResponseThrowable;
-import me.goldze.mvvmhabit.utils.RxUtils;
-import me.goldze.mvvmhabit.utils.ToastUtils;
+import com.fhzn.common.base.BaseViewModel;
+import com.fhzn.common.binding.command.BindingAction;
+import com.fhzn.common.binding.command.BindingCommand;
+import com.fhzn.common.bus.event.SingleLiveEvent;
+import com.fhzn.common.http.BaseResponse;
+import com.fhzn.common.http.ResponseThrowable;
+import com.fhzn.common.utils.RxUtils;
+import com.fhzn.common.utils.ToastUtils;
 import me.tatarka.bindingcollectionadapter2.ItemBinding;
 
 /**

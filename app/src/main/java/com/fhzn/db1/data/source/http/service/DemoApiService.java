@@ -3,7 +3,7 @@ package com.fhzn.db1.data.source.http.service;
 import com.fhzn.db1.entity.DemoEntity;
 
 import io.reactivex.Observable;
-import me.goldze.mvvmhabit.http.BaseResponse;
+import com.fhzn.common.http.BaseResponse;
 import retrofit2.http.Field;
 import retrofit2.http.FormUrlEncoded;
 import retrofit2.http.GET;

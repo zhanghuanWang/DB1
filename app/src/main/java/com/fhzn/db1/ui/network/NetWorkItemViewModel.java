@@ -10,10 +10,10 @@ import com.fhzn.db1.R;
 import com.fhzn.db1.entity.DemoEntity;
 import com.fhzn.db1.ui.network.detail.DetailFragment;
 
-import me.goldze.mvvmhabit.base.ItemViewModel;
-import me.goldze.mvvmhabit.binding.command.BindingAction;
-import me.goldze.mvvmhabit.binding.command.BindingCommand;
-import me.goldze.mvvmhabit.utils.ToastUtils;
+import com.fhzn.common.base.ItemViewModel;
+import com.fhzn.common.binding.command.BindingAction;
+import com.fhzn.common.binding.command.BindingCommand;
+import com.fhzn.common.utils.ToastUtils;
 
 /**
  * Created by zhaozq on 2020/5/15.

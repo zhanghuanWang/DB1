@@ -6,7 +6,7 @@ import android.databinding.BindingAdapter;
 import com.lcodecore.tkrefreshlayout.RefreshListenerAdapter;
 import com.lcodecore.tkrefreshlayout.TwinklingRefreshLayout;
 
-import me.goldze.mvvmhabit.binding.command.BindingCommand;
+import com.fhzn.common.binding.command.BindingCommand;
 
 
 /**

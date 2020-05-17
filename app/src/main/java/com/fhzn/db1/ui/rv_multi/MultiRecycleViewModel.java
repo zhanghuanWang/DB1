@@ -8,8 +8,8 @@ import android.support.annotation.NonNull;
 import com.fhzn.db1.BR;
 import com.fhzn.db1.R;
 
-import me.goldze.mvvmhabit.base.BaseViewModel;
-import me.goldze.mvvmhabit.base.MultiItemViewModel;
+import com.fhzn.common.base.BaseViewModel;
+import com.fhzn.common.base.MultiItemViewModel;
 import me.tatarka.bindingcollectionadapter2.ItemBinding;
 import me.tatarka.bindingcollectionadapter2.OnItemBind;
 

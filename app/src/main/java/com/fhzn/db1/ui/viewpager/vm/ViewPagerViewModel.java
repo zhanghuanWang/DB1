@@ -8,11 +8,11 @@ import android.support.annotation.NonNull;
 import com.fhzn.db1.BR;
 import com.fhzn.db1.R;
 
-import me.goldze.mvvmhabit.base.BaseViewModel;
-import me.goldze.mvvmhabit.binding.command.BindingCommand;
-import me.goldze.mvvmhabit.binding.command.BindingConsumer;
-import me.goldze.mvvmhabit.bus.event.SingleLiveEvent;
-import me.goldze.mvvmhabit.utils.ToastUtils;
+import com.fhzn.common.base.BaseViewModel;
+import com.fhzn.common.binding.command.BindingCommand;
+import com.fhzn.common.binding.command.BindingConsumer;
+import com.fhzn.common.bus.event.SingleLiveEvent;
+import com.fhzn.common.utils.ToastUtils;
 import me.tatarka.bindingcollectionadapter2.BindingViewPagerAdapter;
 import me.tatarka.bindingcollectionadapter2.ItemBinding;
 

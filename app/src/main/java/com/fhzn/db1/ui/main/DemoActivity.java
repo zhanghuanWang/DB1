@@ -13,10 +13,10 @@ import com.fhzn.db1.databinding.ActivityDemoBinding;
 import com.tbruyelle.rxpermissions2.RxPermissions;
 
 import io.reactivex.functions.Consumer;
-import me.goldze.mvvmhabit.base.BaseActivity;
-import me.goldze.mvvmhabit.http.DownLoadManager;
-import me.goldze.mvvmhabit.http.download.ProgressCallBack;
-import me.goldze.mvvmhabit.utils.ToastUtils;
+import com.fhzn.common.base.BaseActivity;
+import com.fhzn.common.http.DownLoadManager;
+import com.fhzn.common.http.download.ProgressCallBack;
+import com.fhzn.common.utils.ToastUtils;
 import okhttp3.ResponseBody;
 
 /**

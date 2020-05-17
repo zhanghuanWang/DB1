@@ -5,9 +5,9 @@ import com.fhzn.db1.R;
 import com.fhzn.db1.ui.login.LoginActivity;
 import com.squareup.leakcanary.LeakCanary;
 
-import me.goldze.mvvmhabit.base.BaseApplication;
-import me.goldze.mvvmhabit.crash.CaocConfig;
-import me.goldze.mvvmhabit.utils.KLog;
+import com.fhzn.common.base.BaseApplication;
+import com.fhzn.common.crash.CaocConfig;
+import com.fhzn.common.utils.KLog;
 
 /**
  * Created by zhaozq on 2017/7/16.

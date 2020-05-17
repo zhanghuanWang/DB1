@@ -12,7 +12,7 @@ import com.fhzn.db1.R;
 import com.fhzn.db1.app.AppViewModelFactory;
 import com.fhzn.db1.databinding.ActivityLoginBinding;
 
-import me.goldze.mvvmhabit.base.BaseActivity;
+import com.fhzn.common.base.BaseActivity;
 
 /**
  * 一个MVVM模式的登陆界面

@@ -15,8 +15,8 @@ import com.fhzn.db1.ui.base.adapter.BaseFragmentPagerAdapter;
 
 import java.util.List;
 
-import me.goldze.mvvmhabit.base.BaseFragment;
-import me.goldze.mvvmhabit.base.BaseViewModel;
+import com.fhzn.common.base.BaseFragment;
+import com.fhzn.common.base.BaseViewModel;
 
 /**
  * Created by zhaozq on 2020/5/15.

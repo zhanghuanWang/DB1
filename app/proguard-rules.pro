@@ -35,7 +35,7 @@
 #-------------------------------------------MVVMHabit混淆规则----------------------------------------------
 #---------------------------------1.实体类---------------------------------
 
--keep class me.goldze.mvvmhabit.http.BaseResponse { *; }
+-keep class com.fhzn.common.http.BaseResponse { *; }
 
 #-------------------------------------------------------------------------
 
@@ -134,17 +134,17 @@
 #----------------------------------------------------------------------------
 
 #---------------------------------4.反射相关的类和方法-----------------------
--keep public class * extends me.goldze.mvvmhabit.base.BaseActivity{ *; }
--keep public class * extends me.goldze.mvvmhabit.base.BaseFragment{ *; }
--keep public class * extends me.goldze.mvvmhabit.binding.command.BindingCommand{ *; }
--keep public class * extends me.goldze.mvvmhabit.binding.command.ResponseCommand{ *; }
+-keep public class * extends com.fhzn.common.base.BaseActivity{ *; }
+-keep public class * extends com.fhzn.common.base.BaseFragment{ *; }
+-keep public class * extends com.fhzn.common.binding.command.BindingCommand{ *; }
+-keep public class * extends com.fhzn.common.binding.command.ResponseCommand{ *; }
 
 
 #----------------------------------------------------------------------------
 
 #---------------------------------5.自定义控件------------------------------
 
--keep class me.goldze.mvvmhabit.widget.** { *; }
+-keep class com.fhzn.common.widget.** { *; }
 
 #----------------------------------------------------------------------------
 #---------------------------------6.其他定制区-------------------------------

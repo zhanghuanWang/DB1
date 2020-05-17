@@ -2,7 +2,7 @@ package com.fhzn.db1.data.source.local;
 
 import com.fhzn.db1.data.source.LocalDataSource;
 
-import me.goldze.mvvmhabit.utils.SPUtils;
+import com.fhzn.common.utils.SPUtils;
 
 /**
  * 本地数据源，可配合Room框架使用

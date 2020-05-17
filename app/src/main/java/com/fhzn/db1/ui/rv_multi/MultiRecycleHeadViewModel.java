@@ -2,11 +2,11 @@ package com.fhzn.db1.ui.rv_multi;
 
 import android.support.annotation.NonNull;
 
-import me.goldze.mvvmhabit.base.BaseViewModel;
-import me.goldze.mvvmhabit.base.MultiItemViewModel;
-import me.goldze.mvvmhabit.binding.command.BindingAction;
-import me.goldze.mvvmhabit.binding.command.BindingCommand;
-import me.goldze.mvvmhabit.utils.ToastUtils;
+import com.fhzn.common.base.BaseViewModel;
+import com.fhzn.common.base.MultiItemViewModel;
+import com.fhzn.common.binding.command.BindingAction;
+import com.fhzn.common.binding.command.BindingCommand;
+import com.fhzn.common.utils.ToastUtils;
 
 /**
  * Create Author：goldze

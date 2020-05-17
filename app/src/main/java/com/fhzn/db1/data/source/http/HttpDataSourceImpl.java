@@ -11,7 +11,7 @@ import java.util.concurrent.TimeUnit;
 import io.reactivex.Observable;
 import io.reactivex.ObservableEmitter;
 import io.reactivex.ObservableOnSubscribe;
-import me.goldze.mvvmhabit.http.BaseResponse;
+import com.fhzn.common.http.BaseResponse;
 
 /**
  * Created by zhaozq on 2019/3/26.

@@ -16,9 +16,9 @@ import com.fhzn.db1.R;
 import com.fhzn.db1.app.AppViewModelFactory;
 import com.fhzn.db1.databinding.FragmentNetworkBinding;
 
-import me.goldze.mvvmhabit.base.BaseFragment;
-import me.goldze.mvvmhabit.utils.MaterialDialogUtils;
-import me.goldze.mvvmhabit.utils.ToastUtils;
+import com.fhzn.common.base.BaseFragment;
+import com.fhzn.common.utils.MaterialDialogUtils;
+import com.fhzn.common.utils.ToastUtils;
 import me.tatarka.bindingcollectionadapter2.BindingRecyclerViewAdapter;
 
 /**

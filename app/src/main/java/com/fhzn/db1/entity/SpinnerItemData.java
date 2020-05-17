@@ -1,6 +1,6 @@
 package com.fhzn.db1.entity;
 
-import me.goldze.mvvmhabit.binding.viewadapter.spinner.IKeyAndValue;
+import com.fhzn.common.binding.viewadapter.spinner.IKeyAndValue;
 
 /**
  * Created by zhaozq on 2020/5/15.

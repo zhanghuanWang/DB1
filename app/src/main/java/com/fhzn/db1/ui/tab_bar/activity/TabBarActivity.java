@@ -16,8 +16,8 @@ import com.fhzn.db1.ui.tab_bar.fragment.TabBar4Fragment;
 import java.util.ArrayList;
 import java.util.List;
 
-import me.goldze.mvvmhabit.base.BaseActivity;
-import me.goldze.mvvmhabit.base.BaseViewModel;
+import com.fhzn.common.base.BaseActivity;
+import com.fhzn.common.base.BaseViewModel;
 import me.majiajie.pagerbottomtabstrip.NavigationController;
 import me.majiajie.pagerbottomtabstrip.listener.OnTabItemSelectedListener;
 

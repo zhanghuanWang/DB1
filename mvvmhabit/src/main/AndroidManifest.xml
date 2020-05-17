@@ -1,18 +1,18 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
 
-    package="me.goldze.mvvmhabit">
+    package="com.fhzn.common">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <application>
         <activity
-            android:name=".base.ContainerActivity"
+            android:name="com.fhzn.common.base.ContainerActivity"
             android:configChanges="orientation|keyboardHidden"></activity>
         <activity
-            android:name=".crash.DefaultErrorActivity"
+            android:name="com.fhzn.common.crash.DefaultErrorActivity"
             android:process=":error_activity" />
 
         <provider
-            android:name=".crash.CaocInitProvider"
+            android:name="com.fhzn.common.crash.CaocInitProvider"
             android:authorities="${applicationId}.customactivityoncrashinitprovider"
             android:exported="false"
             android:initOrder="101" />

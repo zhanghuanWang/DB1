@@ -6,7 +6,7 @@ import android.support.annotation.NonNull;
 
 import com.fhzn.db1.entity.DemoEntity;
 
-import me.goldze.mvvmhabit.base.BaseViewModel;
+import com.fhzn.common.base.BaseViewModel;
 
 /**
  * Created by zhaozq on 2020/5/15.

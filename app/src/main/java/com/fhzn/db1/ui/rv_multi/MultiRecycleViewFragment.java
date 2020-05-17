@@ -9,7 +9,7 @@ import com.fhzn.db1.BR;
 import com.fhzn.db1.R;
 import com.fhzn.db1.databinding.FragmentMultiRvBinding;
 
-import me.goldze.mvvmhabit.base.BaseFragment;
+import com.fhzn.common.base.BaseFragment;
 import me.tatarka.bindingcollectionadapter2.BindingRecyclerViewAdapter;
 
 /**

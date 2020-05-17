@@ -9,7 +9,7 @@ import com.fhzn.db1.R;
 import com.fhzn.db1.databinding.FragmentDetailBinding;
 import com.fhzn.db1.entity.DemoEntity;
 
-import me.goldze.mvvmhabit.base.BaseFragment;
+import com.fhzn.common.base.BaseFragment;
 
 /**
  * Created by zhaozq on 2020/5/15.

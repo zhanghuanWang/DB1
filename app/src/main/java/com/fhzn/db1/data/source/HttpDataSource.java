@@ -3,7 +3,7 @@ package com.fhzn.db1.data.source;
 import com.fhzn.db1.entity.DemoEntity;
 
 import io.reactivex.Observable;
-import me.goldze.mvvmhabit.http.BaseResponse;
+import com.fhzn.common.http.BaseResponse;
 
 /**
  * Created by zhaozq on 2019/3/26.
